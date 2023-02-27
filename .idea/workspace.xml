@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce5bdd4-c300-49b7-976a-ee18b11275ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/perry.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageProcessing2022-23.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcessing2022-23.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContrastedPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContrastedPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Panel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RotatingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RotatingPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8a7a7076-4596-4162-b728-5892fec87fbc" />
+        <option name="url" value="https://github.com/25nsangoram/ImageProcessing2022-23.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +85,19 @@
       <option name="presentableId" value="Default" />
       <updated>1673996938875</updated>
     </task>
+    <task id="LOCAL-00001" summary="Committing ImageProcessing2022-23.iml">
+      <created>1676144971732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676144971732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Committing ImageProcessing2022-23.iml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing ImageProcessing2022-23.iml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -90,5 +109,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ImageProcessing2022_23$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1676333220971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

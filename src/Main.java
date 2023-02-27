@@ -48,6 +48,7 @@ public class Main extends PApplet {
                 //p=new panels[index](x, y, w, h);
                 //}
 
+
                 p.setupImage("data/perry.png");//invoking a method of the class Panel
                 panels.add(p);//p is now an element of the panels array- putting item into the basket
                 index++;
@@ -95,8 +96,28 @@ public class Main extends PApplet {
             Panel goodBye= panels.remove(panels.size()-1);
             panels.add(0,goodBye);
             panels.add(hello);
+            int x= hello.getX();
+            int y=hello.getY();
+            hello.setX(goodBye.getX());
+            hello.setY(goodBye.getY());
+            goodBye.setX(x);
+            goodBye.setY(y);
 
-        } //else if (key == 'r') {
+
+        } else if (key == 'r') {
+            int r=(int)(Math.random()*panels.size());
+            Panel p =panels.remove(r);
+            Panel newP;
+            if(p instanceof RotatingPanel){
+               newP=new CustomPanel(p.getX(),p.getY(),p.getWidth(),p.getHeight());
+            }else{
+                newP=new RotatingPanel(p.getX(),p.getY(),p.getWidth(),p.getHeight());
+
+
+            }
+            panels.add(r,newP);
+            newP.setupImage("data/perry.png");
+        }
 
         //}
     }
